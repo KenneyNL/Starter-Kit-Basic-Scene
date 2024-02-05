@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://cdl4hvrn3nxf2"]
+
+[ext_resource type="PackedScene" uid="uid://basbm4qaiq6k5" path="res://sample/Mini Arena/Models/GLB format/column.glb" id="1_c7oak"]
+[ext_resource type="Environment" uid="uid://cm77bbr0io118" path="res://scenes/main-environment.tres" id="1_x8oc8"]
+[ext_resource type="PackedScene" uid="uid://bqxa36hkpl1hj" path="res://sample/Mini Arena/Models/GLB format/banner.glb" id="2_qihb2"]
+[ext_resource type="PackedScene" uid="uid://gaivtq4jlu8u" path="res://sample/Mini Arena/Models/GLB format/tree.glb" id="3_lyib0"]
+[ext_resource type="PackedScene" uid="uid://dp4f8paatagro" path="res://sample/Mini Arena/Models/GLB format/bricks.glb" id="5_a3l1l"]
+[ext_resource type="PackedScene" uid="uid://nl2p4gn2t5ke" path="res://sample/Mini Arena/Models/GLB format/statue.glb" id="6_drebv"]
+
+[node name="Main" type="Node3D"]
+
+[node name="View" type="Node3D" parent="."]
+transform = Transform3D(0.866025, -0.286788, 0.409576, 0, 0.819152, 0.573576, -0.5, -0.496732, 0.709406, 0, 0, 0)
+
+[node name="Camera" type="Camera3D" parent="View"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
+environment = ExtResource("1_x8oc8")
+fov = 40.0
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.422618, -0.694272, 0.582563, 0, 0.642788, 0.766044, -0.906308, 0.323744, -0.271654, 0, 0, 0)
+shadow_enabled = true
+shadow_blur = 0.5
+
+[node name="Sample" type="Node3D" parent="."]
+
+[node name="Banner" parent="Sample" instance=ExtResource("2_qihb2")]
+transform = Transform3D(0.939693, 0, 0.34202, 0, 1, 0, -0.34202, 0, 0.939693, 0.735318, 0, 0.295037)
+
+[node name="Column" parent="Sample" instance=ExtResource("1_c7oak")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.264682, 0, 0.295037)
+
+[node name="Tree" parent="Sample" instance=ExtResource("3_lyib0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.51468, 0, 0.295037)
+
+[node name="Tree (small)" parent="Sample" instance=ExtResource("3_lyib0")]
+transform = Transform3D(0.565685, 0, 0.565685, 0, 0.8, 0, -0.565685, 0, 0.565685, -1.76468, 0, 0.795037)
+
+[node name="Bricks" parent="Sample" instance=ExtResource("5_a3l1l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.264682, 0, 1.54504)
+
+[node name="Statue" parent="Sample" instance=ExtResource("6_drebv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.73532, 0, 0.295037)
