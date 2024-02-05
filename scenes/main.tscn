@@ -9,6 +9,9 @@
 
 [node name="Main" type="Node3D"]
 
+[node name="Floor" type="CSGBox3D" parent="."]
+size = Vector3(100, 0, 100)
+
 [node name="View" type="Node3D" parent="."]
 transform = Transform3D(0.866025, -0.286788, 0.409576, 0, 0.819152, 0.573576, -0.5, -0.496732, 0.709406, 0, 0, 0)
 
@@ -18,7 +21,7 @@ environment = ExtResource("1_x8oc8")
 fov = 40.0
 
 [node name="Sun" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.422618, -0.694272, 0.582563, 0, 0.642788, 0.766044, -0.906308, 0.323744, -0.271654, 0, 0, 0)
+transform = Transform3D(-0.642788, -0.586824, 0.492404, 0, 0.642788, 0.766044, -0.766045, 0.492404, -0.413176, 0, 0, 0)
 shadow_enabled = true
 shadow_blur = 0.5
 

@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1707176108
+::res://::1707176335
 icon.png::CompressedTexture2D::6666337829934764782::1707175611::1707175656::1::::<><>::
 LICENSE.md::TextFile::-1::1707042163::0::1::::<><>::
-README.md::TextFile::-1::1707175886::0::1::::<><>::
+README.md::TextFile::-1::1707176159::0::1::::<><>::
 splash-screen.png::CompressedTexture2D::7784372460092070247::1707175615::1707175656::1::::<><>::
 ::res://sample/::1707041702
 ::res://sample/Mini Arena/::1707041755
@@ -33,6 +33,6 @@ weapon-spear.glb::PackedScene::6194375692660659661::1705398200::1707041719::1:::
 weapon-sword.glb::PackedScene::3325702735674309073::1705398200::1707041719::1::::<><>::uid://oae7stnemsm::::res://sample/Mini Arena/Models/GLB format/Textures/colormap.png
 ::res://sample/Mini Arena/Models/GLB format/Textures/::1707041804
 colormap.png::CompressedTexture2D::28910141166957680::1705398217::1707041804::1::::<><>::
-::res://scenes/::1707175723
-main-environment.tres::Environment::5683112388667118029::1707175723::0::1::::<><>::
-main.tscn::PackedScene::5007890476823162281::1707175723::0::1::::<><>::uid://basbm4qaiq6k5::::res://sample/Mini Arena/Models/GLB format/column.glb<>uid://cm77bbr0io118::::res://scenes/main-environment.tres<>uid://bqxa36hkpl1hj::::res://sample/Mini Arena/Models/GLB format/banner.glb<>uid://gaivtq4jlu8u::::res://sample/Mini Arena/Models/GLB format/tree.glb<>uid://dp4f8paatagro::::res://sample/Mini Arena/Models/GLB format/bricks.glb<>uid://nl2p4gn2t5ke::::res://sample/Mini Arena/Models/GLB format/statue.glb
+::res://scenes/::1707176321
+main-environment.tres::Environment::5683112388667118029::1707176321::0::1::::<><>::
+main.tscn::PackedScene::5007890476823162281::1707176321::0::1::::<><>::uid://basbm4qaiq6k5::::res://sample/Mini Arena/Models/GLB format/column.glb<>uid://cm77bbr0io118::::res://scenes/main-environment.tres<>uid://bqxa36hkpl1hj::::res://sample/Mini Arena/Models/GLB format/banner.glb<>uid://gaivtq4jlu8u::::res://sample/Mini Arena/Models/GLB format/tree.glb<>uid://dp4f8paatagro::::res://sample/Mini Arena/Models/GLB format/bricks.glb<>uid://nl2p4gn2t5ke::::res://sample/Mini Arena/Models/GLB format/statue.glb
